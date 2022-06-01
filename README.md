@@ -1,38 +1,54 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# Random LightShot
 
-## Creating a project
+i created this site to get random images from light shot;
+this site aims to highlight the problems due to this service.
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm init svelte
 
-# create a new project in my-app
-npm init svelte my-app
-```
 
-## Developing
+## Installation
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Install / start Random Lightshot with npm
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+  npm install
+  npm run dev
 ```
 
-## Building
 
-To create a production version of your app:
+    
+## API Reference
 
-```bash
-npm run build
+#### Get random image link on lightshot
+
+```http
+  POST /api/screenFetch
 ```
 
-You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+
+## Authors
+
+- [@FabienBounoir](https://www.github.com/FabienBounoir)
+
+
+## Badges
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
+
+## Screenshots
+
+![Example](https://media.discordapp.net/attachments/806282416364585062/981547223361933332/unknown.png?width=2228&height=1306)
+![Example](https://media.discordapp.net/attachments/806282416364585062/981547374348501102/unknown.png?width=2228&height=1306)
+
+
+## Tech Stack
+
+**Client:** SvelteKit, SASS
+
+**Server:** Node, Node-Fetch
+
